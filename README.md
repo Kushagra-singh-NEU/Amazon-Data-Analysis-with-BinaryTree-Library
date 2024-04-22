@@ -43,13 +43,11 @@ The main objective of this project is to create a BinaryTree library and leverag
     # Perform range query
     products_in_range = price_bst.range_query((5, 15))
     print("Products in price range $5 - $15:", products_in_range)
-    ```
 
   - **Product Sorting and Searching**:
     Utilize BSTs for efficient sorting and searching of product attributes such as titles, descriptions, or brands.
 
-
-    # Insert product titles into the BST
+   # Insert product titles into the BST
     for title in amazon_data['title']:
         title_bst.insert(title)
     
@@ -59,7 +57,6 @@ The main objective of this project is to create a BinaryTree library and leverag
         print("Product found:", product)
     else:
         print("Product not found.")
-    ```
 
 ## Contributors
 
