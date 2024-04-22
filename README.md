@@ -36,22 +36,22 @@ The main objective of this project is to create a BinaryTree library and leverag
   - **Price Range Categorization**:
     Use a binary search tree (BST) to categorize products based on their prices. Each node represents a price range, allowing for quick querying and range-based operations.
    
-    # Insert price ranges into the BST
+   - **Insert price ranges into the BST
     price_bst.insert((0, 10))   # Represents products priced between $0 and $10
     price_bst.insert((11, 20))  # Represents products priced between $11 and $20
     
-    # Perform range query
+   - **Perform range query
     products_in_range = price_bst.range_query((5, 15))
     print("Products in price range $5 - $15:", products_in_range)
 
   - **Product Sorting and Searching**:
     Utilize BSTs for efficient sorting and searching of product attributes such as titles, descriptions, or brands.
 
-   # Insert product titles into the BST
+   - **Insert product titles into the BST
     for title in amazon_data['title']:
         title_bst.insert(title)
     
-    # Search for a product by title
+   - **Search for a product by title
     product = title_bst.find("Amazon Prime Video")
     if product:
         print("Product found:", product)
